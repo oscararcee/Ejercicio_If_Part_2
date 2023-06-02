@@ -1,0 +1,13 @@
+public class Main {
+    public static void main (String []args) {
+        var numero = 3;
+
+        if (numero > 0) {
+            System.out.println("numero positivo");
+        } else if (numero < 0) {
+            System.out.println("numero negativo");
+        } else {
+            System.out.println("numero = cero");
+        }
+    }
+}
